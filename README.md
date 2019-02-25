@@ -1,4 +1,10 @@
-# Known bugs to fix:
+## First steps
+
+1. Fork this repository
+1. Analyze the code, structure and configuration files to make sure it runs first.
+1. Fix any compilation errors if any.
+
+## Known bugs to fix:
 
 - Index html doesn't show
 - main.css is not being applied
