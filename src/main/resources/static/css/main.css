@@ -1,3 +1,4 @@
-#body {
+/* "#body" selector only works on html an element with an id of "body"*/
+body {
     background-color: darkgoldenrod;
 }

@@ -2,6 +2,8 @@ package com.help;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,4 +42,8 @@ public class UsersCtrl {
         return "forgotPassword page placeholder";
     }
 
+    @GetMapping("/redirect")
+    public RedirectView redirectToHome() {
+        return new RedirectView("/");
+    }
 }
